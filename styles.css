@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #545454;
+}
+
+.container{
+    background-image: url('./images/Background.png');
+    height:100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding:60px;
+    display:flex;
+    flex-direction: column;
+
+}
+.card{
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    max-width:560px;
+    padding: 40px 91px;
+    box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+    border-radius: 15px;
+}
+.top-element{
+    text-align:center;
+}
+
+.top-element h1{
+    font-size: 26px;
+    margin-top:26px;
+    margin-bottom: 16px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+label{
+    margin: 24px 0 8px 0;
+    font-family: 'Inter', sans-serif;
+}
+.input-field{
+    padding:8px 12px;
+    border-radius: 6px;
+    border: 1px solid #CED4DA;
+    color: #A0A0A0;
+
+}
+ .company-size button{
+     margin-right:8px;
+     padding: 4px 8px;
+     color:#545454;
+     border:none;
+     border-radius: 2px;
+     background: #F0F0F0;
+
+ }
+
+ .get-started-button{
+     margin:56px 0 24px 0;
+     padding: 10px 40px;
+     background: #3766E8;
+     border-radius: 5px;
+     color:#FFFFFF;
+     border:none;
+
+ }
+
+ footer{
+     margin: 56px auto
+ }
